@@ -23,9 +23,10 @@ function test0()
         VarArr0[10] = 1;
         VarArr0.slice();
         arrObj0 = Object.prototype;
-    } while (i < 2);
+    } while (i < 2){
     delete arrObj0['5'];
     delete Object.prototype['5'];
+    }
 }
 
 function test1()
